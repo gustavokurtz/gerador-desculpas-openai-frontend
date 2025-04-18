@@ -67,7 +67,7 @@ export default function ExcuseGeneratorPage() {
 
     try {
       // Chamada para a API
-      const response = await fetch('http://localhost:3000/openai', {
+      const response = await fetch('https://gerador-desculpas-openai-backend-production.up.railway.app/openai', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
